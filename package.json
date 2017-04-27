@@ -1,18 +1,24 @@
 {
-  "name": "nodejs-util",
+  "name": "@rankwave/nodejs-util",
   "version": "0.1.0",
   "description": "nodejs-util",
-  "main": "hello-world-server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RANKWAVE/nodejs-util.git"
+  },
   "keywords": [
     "node.js",
     "eclipse",
     "nodeclipse"
   ],
-  "author": "",
+  "author": "Dongmoon Lim <dmlim@rankwave.net> (http://www.rankwave.com)",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "bugs": {
+    "url": "https://github.com/RANKWAVE/nodejs-util/issues"
+  },
+  "homepage": "https://github.com/RANKWAVE/nodejs-util#readme"
 }

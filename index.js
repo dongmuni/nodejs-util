@@ -5,8 +5,10 @@
 
 'use strict';
 
-module.exports = {
-		common: require('./common'),
-		stream: require('./stream'),
-		http: require('./http')
-};
+[
+	'common',
+	'encoder',
+	'stream',
+	'http'
+]
+.forEach((path) => module.exports[path] = require(`./${path}`));
