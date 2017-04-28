@@ -19,6 +19,13 @@ function rawHeadersToMap(rawHeaders)
 		var key = rawHeaders[i];
 		var val = rawHeaders[i+1];
 		
+		if ( !key )
+		{
+			continue;
+		}
+		
+		key = key.replace(/\s+/g, '-');
+		
 		if ( !ignoreHeaders.hasOwnProperty(key.toLowerCase()) )
 		{
 			if ( headers.hasOwnProperty(key) )
