@@ -15,7 +15,13 @@ function N(val)
 	return typeof(val) === 'number' ? val : 0;
 }
 
+function ipv4(address)
+{
+	return (address && (typeof address) === 'string') ? address.replace(/^::ffff:/i, '') : address;
+}
+
 module.exports = {
 		getOption: getOption,
-		N: N
+		N: N,
+		ipv4: ipv4
 };

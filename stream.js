@@ -13,7 +13,10 @@ class ByteCounter extends Transform
 	{
 		super({});
 		this.bytesPiped = 0;
-		this.on('finish', finishCallback);
+		if ( finishCallback )
+		{
+			this.on('finish', finishCallback);
+		}
 	}
 	
 	_transform(chunk, encoding, callback)
