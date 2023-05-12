@@ -1,5 +1,5 @@
 {
-  "name": "@rankwave/nodejs-util",
+  "name": "@dongmuni/nodejs-util",
   "version": "0.1.2",
   "description": "nodejs-util",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RANKWAVE/nodejs-util.git"
+    "url": "git+https://github.com/dongmuni/nodejs-util.git"
   },
   "keywords": [
     "node.js",
     "eclipse",
     "nodeclipse"
   ],
-  "author": "Dongmoon Lim <dmlim@rankwave.net> (http://www.rankwave.com)",
+  "author": "Dongmoon Lim <dongmuni@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RANKWAVE/nodejs-util/issues"
+    "url": "https://github.com/dongmuni/nodejs-util/issues"
   },
-  "homepage": "https://github.com/RANKWAVE/nodejs-util#readme"
+  "homepage": "https://github.com/dongmuni/nodejs-util#readme"
 }
